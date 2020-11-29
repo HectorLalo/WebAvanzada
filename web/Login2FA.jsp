@@ -8,6 +8,7 @@
         <title>Verificacion</title>
     </head>
     <body>
+        <h1>Hola</h1>
         <br>  
         <div id="contenedor1">
             <h2>Ingrese el codigo de verificacion para continuar</h2>
