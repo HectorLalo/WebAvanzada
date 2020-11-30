@@ -49,7 +49,7 @@
         <br>  
         <div id="contenedorAF">
             <div class="wrap-login100">
-				<form class="login100-form validate-form" action="RegistroServlet" method="POST">
+				<form class="login100-form validate-form" action="AcountFinderServlet" method="POST">
 					<span class="login100-form-logo">
 						<i class="zmdi zmdi-landscape"></i>
 					</span>

@@ -143,9 +143,11 @@ public class AccountUpdaterServlet extends HttpServlet {
                     
                 request.setAttribute("registroresponse", registroresponse);
                 //request.getRequestDispatcher("/AccountUpdater.jsp").forward(request, response);
-                RequestDispatcher rd = getServletContext().getRequestDispatcher("/AccountUpdater.jsp");
+                
+                RequestDispatcher rd = getServletContext().getRequestDispatcher("/Menu.jsp");
                 PrintWriter out = response.getWriter();
                 out.println("<div id=\"contenedor3\"><h2><font color=red>Los datos se han modificado</font></h2></div>");
+                
                 rd.include(request, response);
                 //Los datos han sido modificados
             }
@@ -154,7 +156,7 @@ public class AccountUpdaterServlet extends HttpServlet {
         } finally {
             //@Deprecated httpClient.getConnectionManager().shutdown(); 
         }
-        
+                                 
         
     }
 

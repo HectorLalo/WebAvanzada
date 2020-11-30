@@ -159,7 +159,7 @@ input:checked ~ ul{display:block;}
           <li><a href="Presupuesto.jsp">Budget</a></li>
           <li><a href="Contratos.jsp">Contracts</a></li>
           <li ><a>Account and digital signature</a>
-              <ul class="interior">
+              <ul class=""
                   <li><a href="AccountUpdater.jsp">Update account details</a></li>
                     <li><a href="AccountFinder.jsp">Account data</a></li>
                 </ul></li>

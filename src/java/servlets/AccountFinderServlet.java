@@ -93,8 +93,10 @@ public class AccountFinderServlet extends HttpServlet {
             String lastName = afresponse.success.lastName;
             String signature = afresponse.success.signature;
             boolean enterprise_account = afresponse.success.enterprise_account;
+            
+            System.out.println(" ");
 
-            System.out.println("***********");
+            System.out.println("***********"+account_id+email+firstName+lastName+signature+enterprise_account);
 
 //            if(afresponse.error != null){
 //                RequestDispatcher rd = getServletContext().getRequestDispatcher("/CuentayFirma.jsp");
